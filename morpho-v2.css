@@ -1,0 +1,110 @@
+body {
+    font-family: serif;
+}
+header {
+    height: 65px;
+    width: 100%;
+    background-color: rgb(150, 150, 150);
+    color: whitesmoke;
+    border: 5px double whitesmoke;
+    position: fixed;
+    top: 5px;
+    left: 0px;
+}
+.header-logo {
+    padding: 15px;
+    float: left;
+}
+.header-logo:hover{
+    color: silver;
+}
+.header-logo-img {
+    height: 40px;
+    width: 40px;
+    float: left;
+}
+.header-logo-title {
+    float: right;
+    font-size: 25px;
+    padding: 0px 15px;
+}
+ul {
+    float: right;
+    border-left: 1px solid whitesmoke;
+}
+li {
+    list-style: none;
+    float: left;
+    font-size: 18px;
+    margin: 0px 30px;
+    padding: 3px 10px;
+    opacity: 0.5;
+    display: inline-block;
+}
+li:hover {
+    opacity: 1;
+}
+.main {
+    border-top: 70px solid whitesmoke;
+}
+.main-profile {
+    background-image: url("morpho2-v2.jpg");
+    height: 450px;
+    background-size: cover;
+    color: whitesmoke;
+    padding: 40px;
+    border: 5px double whitesmoke;
+    text-align: center;
+}
+.main-profile p {
+    padding: 5px;
+    font-size: 20px;
+}
+.main-communication {
+    height: 1000px;
+    padding: 40px;
+    color: rgb(150, 150, 150);
+    border: 5px double rgb(150, 150, 150);
+}
+.main-impressions {
+    height: 300px;
+    background-image: url("morpho3-v2.png");
+    background-size: cover;
+    text-align: center;
+    padding: 40px;
+    color: whitesmoke;
+    border: 5px double whitesmoke;
+}
+.main-form h1 {
+    margin-bottom: 50px;
+}
+footer {
+    background-color: rgb(150, 150, 150);
+    border: 5px double whitesmoke;
+    padding: 0px 40px;
+    color: whitesmoke;
+}
+.footer-logo {
+    float: left;
+}
+.footer-list {
+    float: right;
+    margin-top: 15px;
+}
+.footer-thanks {
+    text-align: center;
+    font-size: 25px;
+}
+.footer-text {
+    font-size: 25px;
+    height: 110px;
+    border-bottom: 1px solid whitesmoke; 
+}
+h1 {
+    font-size: 35px;
+    border-bottom: 3px double;
+    display: inline-block;
+}
+h1:hover {
+    opacity: 0.5;
+}
