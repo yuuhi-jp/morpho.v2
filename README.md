@@ -1,1 +1,1 @@
-# morpho.v2
+# morpho-v2
